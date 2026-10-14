@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment / secrets
+.env
+*.env
+
+# HomeMind AI user data (never commit databases or uploads)
+.homemind/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Models (downloaded locally, never committed)
+*.gguf
+*.bin
+/models/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
